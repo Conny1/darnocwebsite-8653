@@ -1,4 +1,5 @@
 "use client"
+import DashboardPreview from "@/components/DashboardPreview";
 import { useState } from "react";
 
 // Icons as simple SVG components
@@ -58,7 +59,7 @@ function Header() {
           <span className="font-['Outfit'] font-bold text-xl tracking-tight text-slate-900">Darnoc</span>
         </a>
 
-        <div className="hidden md:flex items-center gap-8">
+        <div className=" hidden md:flex!  items-center gap-8  ">
           <a href="#features" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">Features</a>
           <a href="#modules" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">Modules</a>
           <a href="#pricing" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">Pricing</a>
@@ -141,103 +142,7 @@ function Hero() {
         </div>
 
         {/* Dashboard Mockup */}
-        <div className="relative max-w-4xl mx-auto">
-          <div className="bg-white rounded-3xl shadow-2xl shadow-slate-900/10 border border-slate-200/60 p-4 md:p-6">
-            {/* Mock browser bar */}
-            <div className="flex items-center gap-2 mb-4">
-              <div className="flex gap-1.5">
-                <div className="w-3 h-3 rounded-full bg-red-400" />
-                <div className="w-3 h-3 rounded-full bg-yellow-400" />
-                <div className="w-3 h-3 rounded-full bg-green-400" />
-              </div>
-              <div className="flex-1 bg-slate-100 rounded-lg h-8 flex items-center justify-center">
-                <span className="text-xs text-slate-400 font-mono">app.darnoc.io/dashboard</span>
-              </div>
-            </div>
-
-            {/* Dashboard content */}
-            <div className="grid grid-cols-12 gap-4">
-              {/* Sidebar */}
-              <div className="col-span-3 hidden md:block bg-slate-50 rounded-2xl p-4 space-y-3">
-                <div className="flex items-center gap-2 px-3 py-2 bg-indigo-100 rounded-xl">
-                  <div className="w-5 h-5 bg-indigo-500 rounded-lg" />
-                  <span className="text-sm font-medium text-indigo-700">Dashboard</span>
-                </div>
-                {["CRM", "Invoicing", "Projects", "Calendar"].map((item, i) => (
-                  <div key={i} className="flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-slate-100 transition-colors">
-                    <div className="w-5 h-5 bg-slate-300 rounded-lg" />
-                    <span className="text-sm text-slate-600">{item}</span>
-                  </div>
-                ))}
-                <div className="mt-4 pt-4 border-t border-slate-200">
-                  <div className="flex items-center gap-2 px-3 py-2 text-indigo-600 hover:bg-indigo-50 rounded-xl cursor-pointer">
-                    <span className="text-lg">+</span>
-                    <span className="text-sm font-medium">Add Module</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Main content */}
-              <div className="col-span-12 md:col-span-9 space-y-4">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                  {[
-                    { label: "Revenue", value: "$12,450", color: "bg-emerald-500" },
-                    { label: "Clients", value: "48", color: "bg-blue-500" },
-                    { label: "Projects", value: "12", color: "bg-violet-500" },
-                    { label: "Tasks", value: "34", color: "bg-amber-500" },
-                  ].map((stat, i) => (
-                    <div key={i} className="bg-slate-50 rounded-xl p-4">
-                      <div className={`w-2 h-2 ${stat.color} rounded-full mb-2`} />
-                      <p className="text-xs text-slate-500">{stat.label}</p>
-                      <p className="text-xl font-bold text-slate-900 font-['Outfit']">{stat.value}</p>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="bg-slate-50 rounded-xl p-4">
-                  <p className="text-sm font-medium text-slate-700 mb-3">Recent Activity</p>
-                  <div className="space-y-2">
-                    {[
-                      "New invoice #1024 sent to Acme Corp",
-                      "Meeting scheduled with TechStart Inc",
-                      "Project 'Brand Redesign' marked complete",
-                    ].map((activity, i) => (
-                      <div key={i} className="flex items-center gap-3 text-sm text-slate-600">
-                        <div className="w-1.5 h-1.5 bg-indigo-400 rounded-full" />
-                        {activity}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Floating module badges */}
-          <div className="absolute -left-4 top-1/4 hidden lg:block">
-            <div className="bg-white rounded-2xl shadow-xl shadow-slate-900/10 border border-slate-200 px-4 py-3 flex items-center gap-3 animate-float">
-              <div className="w-10 h-10 bg-emerald-100 rounded-xl flex items-center justify-center text-emerald-600">
-                <IconInvoice />
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-slate-900">Invoicing</p>
-                <p className="text-xs text-slate-500">Installed</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="absolute -right-4 top-1/2 hidden lg:block">
-            <div className="bg-white rounded-2xl shadow-xl shadow-slate-900/10 border border-slate-200 px-4 py-3 flex items-center gap-3 animate-float-delayed">
-              <div className="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600">
-                <IconCRM />
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-slate-900">CRM</p>
-                <p className="text-xs text-slate-500">Installed</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <DashboardPreview/>
       </div>
 
       <style>{`
