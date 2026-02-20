@@ -29,6 +29,7 @@ export const metadata: Metadata = {
   title: "Darnoc",
   description: "Modular Business Tools and workspace",
 
+
 };
 
 export default function RootLayout({

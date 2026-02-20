@@ -607,10 +607,10 @@ const WhoItsFor = () => {
 
 const Pricing = () => {
   const modulePrices = [
-    { name: "CRM", price: "$9", sub: "per month", desc: "Pipeline & Lead Management" },
-    { name: "Invoicing", price: "$5", sub: "per month", desc: "Payments & Revenue Tracking" },
-    { name: "Projects", price: "$7", sub: "per month", desc: "Task & Deadline Tracking" },
-    { name: "Calendar", price: "$5", sub: "per month", desc: "Scheduling & Availability" },
+    { name: "CRM", price: "KES 300", sub: "per month", desc: "Pipeline & Lead Management" },
+    { name: "Invoicing", price: "KES 400", sub: "per month", desc: "Payments & Revenue Tracking" },
+    { name: "Projects", price: "KES 300", sub: "per month", desc: "Task & Deadline Tracking" },
+    { name: "Calendar", price: "TBD", sub: "per month", desc: "Scheduling & Availability" },
     { name: "File Manager", price: "TBD", sub: "Coming Soon", desc: "Secure Document Storage" },
   ];
 
