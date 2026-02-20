@@ -26,7 +26,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Darnoc",
+  title: "Modulor",
   description: "Modular Business Tools and workspace",
 
 
