@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-4">
           <a 
-            href="https://darmoc-client.netlify.app/" 
+            href="https://dashboard.modulor.co.ke/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-sm font-medium text-zinc-700 hover:text-zinc-900"
@@ -43,7 +43,7 @@ const Navbar = () => {
             Sign In
           </a>
           <a 
-            href="https://darmoc-client.netlify.app/" 
+            href="https://dashboard.modulor.co.ke/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded transition-all shadow-sm"
@@ -88,7 +88,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-20">
             <a 
-              href="https://darmoc-client.netlify.app/" 
+              href="https://dashboard.modulor.co.ke/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="px-8 py-4 bg-zinc-900 hover:bg-zinc-800 text-white font-semibold rounded flex items-center justify-center gap-2 transition-all shadow-lg shadow-zinc-200"
@@ -648,7 +648,7 @@ const Pricing = () => {
              No credit card required. Cancel or remove modules anytime. <br className="hidden md:block" /> All modules include a 14-day free trial.
            </p>
            <a 
-              href="https://darmoc-client.netlify.app/" 
+              href="https://dashboard.modulor.co.ke/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="px-10 py-5 bg-zinc-900 hover:bg-zinc-800 text-white text-lg font-bold rounded-xl transition-all shadow-xl shadow-zinc-200 inline-block"
@@ -726,7 +726,7 @@ export default function LandingPage() {
               Join thousands of entrepreneurs building their businesses with modular tools.
             </p>
             <a 
-              href="https://darmoc-client.netlify.app/" 
+              href="https://dashboard.modulor.co.ke/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="inline-flex items-center gap-3 px-12 py-6 bg-blue-600 hover:bg-blue-700 text-white text-xl font-bold rounded-xl transition-all shadow-2xl shadow-blue-600/20 hover:scale-[1.02]"
