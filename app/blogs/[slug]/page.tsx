@@ -10,6 +10,7 @@ export async function generateStaticParams() {
   }));
 }
 
+
 interface ContentHeading {
   type: "heading_2";
   text: string;
@@ -57,14 +58,24 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = (blogsData as BlogPost[]).find((b) => b.slug === slug);
 
-  if (!post) {
-    return { title: "Page Not Found | Modulo" };
-  }
+  if (!post) return { title: "Page Not Found | Modulo" };
 
   return {
     title: `${post.title} | Modulo`,
     description: post.meta_description,
     keywords: post.keywords,
+    openGraph: {
+      title: post.title,
+      description: post.meta_description,
+      type: "article",
+      publishedTime: post.published_date,
+      authors: [post.author.name],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.meta_description,
+    },
   };
 }
 

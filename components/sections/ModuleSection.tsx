@@ -22,7 +22,7 @@ const ModulesSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {modules.map((m, idx) => (
-            <Link key={idx} href={`/${m.slug}`} className=" hover:border-blue-300 transition-all duration-300">
+            <Link key={idx} href={`/blogs/${m.slug}`} className=" hover:border-blue-300 transition-all duration-300">
             <div  className="p-8 bg-white border border-zinc-200 rounded-2xl shadow-sm flex flex-col justify-between group hover:border-blue-300 transition-all duration-300">
               <div>
                 <div className="flex items-center justify-between mb-6">

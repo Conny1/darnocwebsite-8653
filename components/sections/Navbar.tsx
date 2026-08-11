@@ -16,6 +16,7 @@ const Navbar = () => {
               <a href="#features" className="text-sm font-medium text-zinc-700 hover:text-zinc-900 transition-colors">Features</a>
               <a href="#modules" className="text-sm font-medium text-zinc-700 hover:text-zinc-900 transition-colors">Modules</a>
               <a href="#pricing" className="text-sm font-medium text-zinc-700 hover:text-zinc-900 transition-colors">Pricing</a>
+              <a href="/blogs" className="text-sm font-medium text-zinc-700 hover:text-zinc-900 transition-colors">Blogs</a>
             </div>
           </div>
           <div className="flex items-center gap-4">
