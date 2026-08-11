@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "crm",
+    "title": "Stop Losing Client Leads in WhatsApp: Why Kenyan Freelancers Need a Simple CRM",
+    "meta_description": "Tired of managing clients on WhatsApp and tracking payments on Excel? Learn how a simple CRM helps Kenyan freelancers scale.",
+    "category": "CRM",
+    "reading_time": "4 min read",
+    "published_date": "2026-08-11",
+    "keywords": ["freelance CRM Kenya", "simple CRM", "client management"],
+    "author": {
+      "name": "Modulo Team",
+      "role": "Product Strategy"
+    },
+    "content": [
+      {
+        "type": "heading_2",
+        "text": "The Chaos of Managing Clients on WhatsApp"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you run a freelance or consulting business in Kenya, your daily workflow lives in WhatsApp chats and Excel sheets. You send a quote, forget to follow up two days later, and lose deals worth thousands of shillings simply because messages get buried."
+      },
+      {
+        "type": "heading_2",
+        "text": "Why a Lightweight CRM Changes Everything"
+      },
+      {
+        "type": "paragraph",
+        "text": "A simple CRM gives you a clear visual pipeline for every lead:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Lead Received: A prospect asks for pricing.",
+          "Quote Sent: Proposal submitted with clear terms.",
+          "Active Client: Project underway.",
+          "Paid & Archived: Invoice settled."
+        ]
+      }
+    ],
+    "call_to_action": {
+      "headline": "Ready to organize your clients?",
+      "subheadline": "Get started with our lightweight CRM module.",
+      "button_text": "Explore CRM Module",
+      "link": "https://dashboard.modulor.co.ke"
+    }
+  },
+  {
+    "slug": "invoicing",
+    "title": "How to Get Paid Faster as a Solo Entrepreneur in Kenya",
+    "meta_description": "Stop chasing delayed client payments. Create automated, professional invoices with clear M-Pesa and bank details.",
+    "category": "Invoicing",
+    "reading_time": "3 min read",
+    "published_date": "2026-08-10",
+    "keywords": ["invoicing software Kenya", "M-Pesa invoicing", "freelance payments"],
+    "author": {
+      "name": "Modulo Team",
+      "role": "Finance & Billing"
+    },
+    "content": [
+      {
+        "type": "heading_2",
+        "text": "The Pain of Late Payments"
+      },
+      {
+        "type": "paragraph",
+        "text": "Unprofessional Word or PDF receipts delay payments. Clients need professional invoices that clearly state payment terms, deposit requirements, and direct M-Pesa / Bank details."
+      },
+      {
+        "type": "heading_2",
+        "text": "Automate Invoices in 60 Seconds"
+      },
+      {
+        "type": "paragraph",
+        "text": "With automated invoicing, you can convert an active CRM lead into a payable invoice in one click, attach terms, and track payment status without manually updating spreadsheets."
+      }
+    ],
+    "call_to_action": {
+      "headline": "Streamline Your Business Billing",
+      "subheadline": "Send professional invoices and get paid on time.",
+      "button_text": "Explore Invoicing Module",
+      "link": "https://dashboard.modulor.co.ke"
+    }
+  },
+  {
+    "slug": "projects",
+    "title": "Task Management for Freelancers Who Hate Complex PM Software",
+    "meta_description": "You don't need Jira or complex enterprise tools. Here is how to manage freelance deliverables with zero bloat.",
+    "category": "Projects",
+    "reading_time": "5 min read",
+    "published_date": "2026-08-09",
+    "keywords": ["project management Kenya", "task management solo developers", "freelance tasks"],
+    "author": {
+      "name": "Modulo Team",
+      "role": "Productivity"
+    },
+    "content": [
+      {
+        "type": "heading_2",
+        "text": "Ditch the Enterprise Bloatware"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most project management platforms force you through dozens of menus designed for 100-person teams. As a solo operator, you just need a straightforward board mapping out tasks from start to finish."
+      },
+      {
+        "type": "heading_2",
+        "text": "Focus on Deliverables, Not Setup"
+      },
+      {
+        "type": "paragraph",
+        "text": "Organize work into milestones, set target dates, and share progress updates directly with clients to maintain transparency."
+      }
+    ],
+    "call_to_action": {
+      "headline": "Manage Projects Effortlessly",
+      "subheadline": "Keep your client deliverables on schedule without complex setups.",
+      "button_text": "Explore Projects Module",
+      "link": "https://dashboard.modulor.co.ke"
+    }
+  }
+]
