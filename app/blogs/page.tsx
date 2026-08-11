@@ -3,6 +3,7 @@ import Link from "next/link";
 import blogsData from "@/data/blog-post.json";
 
 
+
 export default function Page() {
   return (
     <div className="min-h-screen bg-white text-slate-900 py-16 px-4 sm:px-6 lg:px-8">

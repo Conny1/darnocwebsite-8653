@@ -90,6 +90,36 @@ export default async function BlogPostPage({
   if (!post) {
     notFound();
   }
+  {/* Place this inside your BlogPostPage JSX */}
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://modulor.co.ke"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://modulor.co.ke/blogs"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": post.title,
+          "item": `https://modulor.co.ke/blogs/${post.slug}`
+        }
+      ]
+    })
+  }}
+/>
 
   return (
     <article className="min-h-screen bg-white text-slate-900 py-16 px-4 sm:px-6 lg:px-8">
