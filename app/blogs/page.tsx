@@ -21,7 +21,7 @@ export default function Page() {
                   {post.category}
                 </span>
                 <h2 className="text-xl font-bold text-slate-900">
-                  <Link href={`/blogs   /${post.slug}`} className="hover:text-blue-600 transition-colors">
+                  <Link href={`/blogs/${post.slug}`} className="hover:text-blue-600 transition-colors">
                     {post.title}
                   </Link>
                 </h2>
