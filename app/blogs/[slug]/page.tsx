@@ -6,7 +6,7 @@ import blogsData from "@/data/blog-post.json";
 // Add this export to your [slug]/page.tsx
 export async function generateStaticParams() {
   return blogsData.map((post) => ({
-    slug: post.slug,
+    slug:post.slug,
   }));
 }
 
@@ -58,10 +58,10 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = (blogsData as BlogPost[]).find((b) => b.slug === slug);
 
-  if (!post) return { title: "Page Not Found | Modulo" };
+  if (!post) return { title: "Page Not Found | Modulor" };
 
   return {
-    title: `${post.title} | Modulo`,
+    title: `${post.title} | Modulor`,
     description: post.meta_description,
     keywords: post.keywords,
     openGraph: {
