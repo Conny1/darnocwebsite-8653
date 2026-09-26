@@ -2,13 +2,13 @@
   {
     "slug": "crm",
     "title": "Stop Losing Client Leads in WhatsApp: Why Kenyan Freelancers Need a Simple CRM",
-    "meta_description": "Tired of managing clients on WhatsApp and tracking payments on Excel? Learn how a simple CRM helps Kenyan freelancers scale.",
+    "meta_description": "Tired of managing clients on WhatsApp and tracking payments on Excel? Learn how a simple CRM helps Kenyan freelancers and solo businesses stay on top of every lead.",
     "category": "CRM",
     "reading_time": "4 min read",
     "published_date": "2026-08-11",
-    "keywords": ["freelance CRM Kenya", "simple CRM", "client management" , "freelance business tools", "freelance workflow", "client tracking software", "freelance lead management", "CRM for freelancers", "Kenya business tools", "freelance productivity tools"],
+    "keywords": ["freelance CRM Kenya", "simple CRM", "client management", "freelance business tools", "freelance workflow", "client tracking software", "freelance lead management", "CRM for freelancers", "Kenya business tools", "freelance productivity tools", "Business OS Kenya"],
     "author": {
-      "name": "Modulo Team",
+      "name": "Modulor Team",
       "role": "Product Strategy"
     },
     "content": [
@@ -18,7 +18,7 @@
       },
       {
         "type": "paragraph",
-        "text": "If you run a freelance or consulting business in Kenya, your daily workflow lives in WhatsApp chats and Excel sheets. You send a quote, forget to follow up two days later, and lose deals worth thousands of shillings simply because messages get buried."
+        "text": "If you run a freelance or solo business in Kenya, your daily workflow probably lives in WhatsApp chats and Excel sheets. You send a quote, forget to follow up two days later, and lose deals worth thousands of shillings simply because messages get buried."
       },
       {
         "type": "heading_2",
@@ -40,21 +40,21 @@
     ],
     "call_to_action": {
       "headline": "Ready to organize your clients?",
-      "subheadline": "Get started with our lightweight CRM module.",
-      "button_text": "Explore CRM Module",
+      "subheadline": "Install the CRM app on your Modulor workspace — free for 30 days.",
+      "button_text": "Try CRM Free",
       "link": "https://dashboard.modulor.co.ke"
     }
   },
   {
     "slug": "invoicing",
-    "title": "How to Get Paid Faster as a Solo Entrepreneur in Kenya",
-    "meta_description": "Stop chasing delayed client payments. Create automated, professional invoices with clear M-Pesa and bank details.",
+    "title": "How to Get Paid Faster as a Freelancer or Solo Business Owner in Kenya",
+    "meta_description": "Stop chasing delayed client payments. Create professional invoices with M-Pesa payment details and track every payment from one place.",
     "category": "Invoicing",
     "reading_time": "3 min read",
     "published_date": "2026-08-10",
-    "keywords": ["invoicing software Kenya", "M-Pesa invoicing", "freelance payments", "automated invoicing", "freelance billing tools", "Kenya business invoicing", "professional invoices", "freelance finance management", "freelance payment tracking", "invoice automation", "freelance accounting tools", "Kenya freelance finance solutions"],
+    "keywords": ["invoicing software Kenya", "M-Pesa invoicing", "freelance payments", "freelance billing tools", "Kenya business invoicing", "professional invoices Kenya", "freelance finance management", "freelance payment tracking", "invoice generator Kenya", "solo business invoicing Kenya", "Business OS Kenya"],
     "author": {
-      "name": "Modulo Team",
+      "name": "Modulor Team",
       "role": "Finance & Billing"
     },
     "content": [
@@ -64,34 +64,34 @@
       },
       {
         "type": "paragraph",
-        "text": "Unprofessional Word or PDF receipts delay payments. Clients need professional invoices that clearly state payment terms, deposit requirements, and direct M-Pesa / Bank details."
+        "text": "Unprofessional Word or PDF receipts delay payments. Clients need professional invoices that clearly state payment terms, deposit requirements, and direct M-Pesa and bank details."
       },
       {
         "type": "heading_2",
-        "text": "Automate Invoices in 60 Seconds"
+        "text": "Send a Professional Invoice in 60 Seconds"
       },
       {
         "type": "paragraph",
-        "text": "With automated invoicing, you can convert an active CRM lead into a payable invoice in one click, attach terms, and track payment status without manually updating spreadsheets."
+        "text": "With Modulor Invoicing, you can convert an active CRM lead into a payable invoice in one click, attach payment terms, and track payment status — no spreadsheets, no manual updates."
       }
     ],
     "call_to_action": {
-      "headline": "Streamline Your Business Billing",
-      "subheadline": "Send professional invoices and get paid on time.",
-      "button_text": "Explore Invoicing Module",
+      "headline": "Stop Chasing Payments",
+      "subheadline": "Install the Invoicing app on your Modulor workspace — free for 30 days.",
+      "button_text": "Try Invoicing Free",
       "link": "https://dashboard.modulor.co.ke"
     }
   },
   {
     "slug": "projects",
-    "title": "Task Management for Freelancers Who Hate Complex PM Software",
-    "meta_description": "You don't need Jira or complex enterprise tools. Here is how to manage freelance deliverables with zero bloat.",
+    "title": "Task Management for Freelancers Who Hate Complex Project Management Software",
+    "meta_description": "You don't need Jira or enterprise tools. Here is how solo businesses and freelancers in Kenya manage deliverables without the bloat.",
     "category": "Projects",
     "reading_time": "5 min read",
     "published_date": "2026-08-09",
-    "keywords": ["project management Kenya", "task management solo developers", "freelance tasks", "simple project management", "freelance productivity tools", "Kenya freelance workflow", "freelance project tracking", "task organization for freelancers", "freelance deliverables management", "project management software alternatives", "freelance project planning", "Kenya freelance business tools"],
+    "keywords": ["project management Kenya", "task management freelancers", "freelance tasks", "simple project management Kenya", "freelance productivity tools", "Kenya freelance workflow", "freelance project tracking", "task organization for freelancers", "freelance deliverables management", "Jira alternative Kenya", "freelance project planning", "Business OS Kenya"],
     "author": {
-      "name": "Modulo Team",
+      "name": "Modulor Team",
       "role": "Productivity"
     },
     "content": [
@@ -101,7 +101,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Most project management platforms force you through dozens of menus designed for 100-person teams. As a solo operator, you just need a straightforward board mapping out tasks from start to finish."
+        "text": "Most project management platforms are built for 100-person teams. As a solo operator, you just need a simple board that maps your tasks from start to finish — nothing more."
       },
       {
         "type": "heading_2",
@@ -109,13 +109,152 @@
       },
       {
         "type": "paragraph",
-        "text": "Organize work into milestones, set target dates, and share progress updates directly with clients to maintain transparency."
+        "text": "Organize work into milestones, set target dates, and share progress updates directly with clients to maintain transparency — all connected to your CRM and Invoicing in one workspace."
       }
     ],
     "call_to_action": {
-      "headline": "Manage Projects Effortlessly",
-      "subheadline": "Keep your client deliverables on schedule without complex setups.",
-      "button_text": "Explore Projects Module",
+      "headline": "Manage Projects Without the Complexity",
+      "subheadline": "Install the Projects app on your Modulor workspace — free for 30 days.",
+      "button_text": "Try Projects Free",
+      "link": "https://dashboard.modulor.co.ke"
+    }
+  },
+  {
+    "slug": "calendar",
+    "title": "How Kenyan Freelancers Can Manage Client Bookings Without the Back-and-Forth",
+    "meta_description": "Stop the endless WhatsApp scheduling. Learn how a simple calendar and booking tool helps freelancers and solo businesses manage their time professionally.",
+    "category": "Calendar",
+    "reading_time": "4 min read",
+    "published_date": "2026-09-01",
+    "keywords": ["calendar app Kenya", "booking tool for freelancers Kenya", "scheduling software Kenya", "client booking Kenya", "freelance scheduling tools", "appointment booking Kenya", "solo business calendar", "freelancer time management Kenya", "Business OS Kenya", "Calendly alternative Kenya"],
+    "author": {
+      "name": "Modulor Team",
+      "role": "Productivity"
+    },
+    "content": [
+      {
+        "type": "heading_2",
+        "text": "The Endless Scheduling Back-and-Forth"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every freelancer knows the drill. A client says they want to meet, you suggest a time, they are busy, you suggest another, two days pass, nothing is confirmed. Time you could have spent on actual work is lost in a WhatsApp thread."
+      },
+      {
+        "type": "heading_2",
+        "text": "Let Clients Book You Directly"
+      },
+      {
+        "type": "paragraph",
+        "text": "With Modulor Calendar, you set your availability once and share a booking link. Clients pick a slot that works for them. No back-and-forth, no double bookings, no confusion. Your schedule stays connected to your projects and clients in the same workspace."
+      },
+      {
+        "type": "heading_2",
+        "text": "Everything in One Place"
+      },
+      {
+        "type": "paragraph",
+        "text": "Because Calendar is part of your Modulor Business OS, a confirmed booking can connect to a CRM contact, a project, or trigger an invoice — all without switching apps."
+      }
+    ],
+    "call_to_action": {
+      "headline": "Take Control of Your Schedule",
+      "subheadline": "Install the Calendar app on your Modulor workspace — free for 30 days.",
+      "button_text": "Try Calendar Free",
+      "link": "https://dashboard.modulor.co.ke"
+    }
+  },
+  {
+    "slug": "why-modulor",
+    "title": "Why Kenyan Freelancers Are Switching to a Business OS Instead of Juggling Multiple Apps",
+    "meta_description": "Zoho is built for companies. Notion is for teams. What about the solo business owner in Kenya? Here is why a Business OS built for one makes more sense.",
+    "category": "General",
+    "reading_time": "5 min read",
+    "published_date": "2026-09-05",
+    "keywords": ["Business OS Kenya", "Zoho alternative Kenya", "freelancer business software Kenya", "solo business tools Kenya", "modular business software Kenya", "all in one business tools freelancers", "freelance productivity Kenya", "solopreneur software Kenya", "business tools for one person business Kenya", "Modulor"],
+    "author": {
+      "name": "Modulor Team",
+      "role": "Product Strategy"
+    },
+    "content": [
+      {
+        "type": "heading_2",
+        "text": "The Problem With Existing Business Software"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most business software is built for companies — teams, departments, budgets. You pay for 50 features and use three. Zoho, HubSpot, and similar tools are powerful but they were not designed for someone running a business alone."
+      },
+      {
+        "type": "heading_2",
+        "text": "The Other Option Is Worse"
+      },
+      {
+        "type": "paragraph",
+        "text": "The alternative is stitching together different apps — one for invoicing, one for clients, one for projects, one for scheduling. Nothing talks to each other. Your data is scattered. You spend more time managing tools than running your business."
+      },
+      {
+        "type": "heading_2",
+        "text": "A Business OS Built for One"
+      },
+      {
+        "type": "paragraph",
+        "text": "Modulor is built on a simple idea — give solo businesses and freelancers the same connected, professional toolset that companies have, but without the bloat and without paying for what you don't use. Install CRM, Invoicing, Projects, Calendar — each one separately, each one connected to the others. Your business in one place."
+      }
+    ],
+    "call_to_action": {
+      "headline": "Run Your Business From One Place",
+      "subheadline": "Your Modulor workspace is free to start. Install only what you need.",
+      "button_text": "Get Started Free",
+      "link": "https://dashboard.modulor.co.ke"
+    }
+  },
+  {
+    "slug": "freelance-business-kenya",
+    "title": "What Does It Actually Take to Run a Solo Business in Kenya in 2026",
+    "meta_description": "From client management to invoicing and project delivery — here is what running a one-person business in Kenya really looks like and the tools that help.",
+    "category": "General",
+    "reading_time": "6 min read",
+    "published_date": "2026-09-10",
+    "keywords": ["running a solo business Kenya", "freelance business Kenya 2026", "one person business Kenya", "freelancer tools Kenya", "solopreneur Kenya", "business management solo Kenya", "freelance productivity Kenya", "Business OS Kenya", "Modulor", "Kenya freelance ecosystem"],
+    "author": {
+      "name": "Modulor Team",
+      "role": "Product Strategy"
+    },
+    "content": [
+      {
+        "type": "heading_2",
+        "text": "The Reality of Running a One-Person Business"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you run a business alone, you are the CEO, the accountant, the project manager, and the customer support team. There is no department to hand things off to. Every missed follow-up, every late invoice, every forgotten deadline comes back to you."
+      },
+      {
+        "type": "heading_2",
+        "text": "The Tools Gap"
+      },
+      {
+        "type": "paragraph",
+        "text": "Enterprise software is too complex and too expensive. Free tools are too basic and disconnected. Kenyan solo business owners are stuck in the middle — managing clients on WhatsApp, invoices on Word, and projects on a mental to-do list."
+      },
+      {
+        "type": "heading_2",
+        "text": "What a Modern Solo Business Needs"
+      },
+      {
+        "type": "paragraph",
+        "text": "A way to track every client and lead. A way to send professional invoices and get paid on time. A way to manage projects and deadlines without complexity. A calendar that handles bookings automatically. And all of it connected — so the data flows between tools without you manually updating five different places."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is exactly what Modulor is built to do."
+      }
+    ],
+    "call_to_action": {
+      "headline": "Built for the Solo Business Owner",
+      "subheadline": "Your Modulor workspace is free to start. Install only what you need.",
+      "button_text": "Get Started Free",
       "link": "https://dashboard.modulor.co.ke"
     }
   }
