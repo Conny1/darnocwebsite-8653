@@ -1,0 +1,6 @@
+{
+  "name": "Modulor — Business OS for Freelancers in Kenya",
+  "description": "The modular Business OS built for freelancers and solo businesses in Kenya. Connected CRM, Invoicing, Projects, Calendar, and more.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
