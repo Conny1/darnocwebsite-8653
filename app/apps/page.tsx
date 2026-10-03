@@ -257,7 +257,7 @@ export default function AppsPage() {
   </div>
 </div>
             {/* Email capture */}
-            <div className="max-w-md p-6 mx-auto mt-12 bg-white border shadow-sm rounded-2xl border-zinc-200">
+            {/* <div className="max-w-md p-6 mx-auto mt-12 bg-white border shadow-sm rounded-2xl border-zinc-200">
               <h3 className="mb-1 text-base font-bold text-zinc-900">
                 Want to know when a new app launches?
               </h3>
@@ -292,7 +292,7 @@ export default function AppsPage() {
                   )}
                 </form>
               )}
-            </div>
+            </div> */}
           </div>
         </section>
 
