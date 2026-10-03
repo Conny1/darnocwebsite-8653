@@ -1,46 +1,69 @@
-'use client';
-
-import { useState } from 'react';
-import { Mail, MessageCircle, Clock, Send, CheckCircle2, AlertCircle } from 'lucide-react';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import { WHATSAPP_PHONE, WHATSAPP_URL, SUPPORT_EMAIL } from '@/lib/constants';
+"use client";
+import emailjs from "@emailjs/browser";
+import { useRef, useState } from "react";
+import {
+  Mail,
+  MessageCircle,
+  Clock,
+  Send,
+  CheckCircle2,
+  AlertCircle,
+} from "lucide-react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import { WHATSAPP_PHONE, WHATSAPP_URL, SUPPORT_EMAIL } from "@/lib/constants";
 
 export default function ContactPage() {
+  const form = useRef<HTMLFormElement>(null);
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: 'General Question',
-    message: '',
+    name: "",
+    email: "",
+    subject: "General Question",
+    message: "",
   });
 
   const [submitted, setSubmitted] = useState(false);
-  const [errorMsg, setErrorMsg] = useState('');
+  const [errorMsg, setErrorMsg] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name.trim()) {
-      setErrorMsg('Please enter your name.');
+      setErrorMsg("Please enter your name.");
       return;
     }
-    if (!formData.email.trim() || !formData.email.includes('@')) {
-      setErrorMsg('Please enter a valid email address.');
+    if (!formData.email.trim() || !formData.email.includes("@")) {
+      setErrorMsg("Please enter a valid email address.");
       return;
     }
     if (!formData.message.trim()) {
-      setErrorMsg('Please enter your message.');
+      setErrorMsg("Please enter your message.");
       return;
     }
-
-    setErrorMsg('');
     setIsSubmitting(true);
 
-    // Simulate sending message
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitted(true);
-    }, 600);
+    emailjs
+      .sendForm("service_yvw6cx7", "template_h60c17p", form.current as string | HTMLFormElement, {
+        publicKey: "t8odDqAVXy0xp6K3_",
+      })
+      .then(
+        (reps) => {
+          console.log("Email sent successfully:", reps);
+          setIsSubmitting(false);
+          setSubmitted(true);
+          setFormData({
+            name: "",
+            email: "",
+            subject: "General Question",
+            message: "",
+          });
+        },
+        (error) => {
+          console.error(error);
+          setIsSubmitting(false);
+          setErrorMsg("System error. Please try emailing us directly.");
+        },
+      );
   };
 
   return (
@@ -58,7 +81,8 @@ export default function ContactPage() {
               Get in Touch.
             </h1>
             <p className="mt-4 text-lg sm:text-xl text-zinc-600 max-w-2xl mx-auto leading-relaxed text-balance">
-              Have a question, found a bug, or want to share feedback? We want to hear from you.
+              Have a question, found a bug, or want to share feedback? We want
+              to hear from you.
             </p>
           </div>
         </section>
@@ -89,8 +113,12 @@ export default function ContactPage() {
                         <Mail className="w-5 h-5" />
                       </div>
                       <div>
-                        <span className="font-bold text-zinc-900 text-sm block">Email Support</span>
-                        <span className="text-xs text-zinc-500">Send an email message</span>
+                        <span className="font-bold text-zinc-900 text-sm block">
+                          Email Support
+                        </span>
+                        <span className="text-xs text-zinc-500">
+                          Send an email message
+                        </span>
                       </div>
                     </div>
                     <span className="text-xs font-semibold text-blue-600 group-hover:translate-x-0.5 transition-transform">
@@ -110,7 +138,9 @@ export default function ContactPage() {
                         <MessageCircle className="w-5 h-5" />
                       </div>
                       <div>
-                        <span className="font-bold text-zinc-900 text-sm block">WhatsApp</span>
+                        <span className="font-bold text-zinc-900 text-sm block">
+                          WhatsApp
+                        </span>
                         <span className="text-xs text-zinc-600 font-medium tabular-nums">
                           {WHATSAPP_PHONE}
                         </span>
@@ -126,7 +156,9 @@ export default function ContactPage() {
                 <div className="pt-4 border-t border-zinc-200/80 flex items-start gap-3 text-xs text-zinc-600">
                   <Clock className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
                   <p className="leading-relaxed">
-                    <span className="font-bold text-zinc-900">Response time: </span>
+                    <span className="font-bold text-zinc-900">
+                      Response time:{" "}
+                    </span>
                     We reply within 24 hours, Monday to Friday.
                   </p>
                 </div>
@@ -136,7 +168,9 @@ export default function ContactPage() {
             {/* RIGHT COLUMN: CONTACT FORM */}
             <div className="lg:col-span-7">
               <div className="bg-white border border-zinc-200 rounded-2xl p-6 sm:p-8 shadow-sm">
-                <h2 className="text-xl font-extrabold text-zinc-900 mb-1">Send us a message</h2>
+                <h2 className="text-xl font-extrabold text-zinc-900 mb-1">
+                  Send us a message
+                </h2>
                 <p className="text-sm text-zinc-500 mb-6">
                   Fill out the form below and we will get back to you promptly.
                 </p>
@@ -146,20 +180,22 @@ export default function ContactPage() {
                     <div className="w-12 h-12 rounded-full bg-emerald-600 text-white flex items-center justify-center mx-auto">
                       <CheckCircle2 className="w-6 h-6" />
                     </div>
-                    <h3 className="font-bold text-zinc-900 text-base">Message Sent!</h3>
+                    <h3 className="font-bold text-zinc-900 text-base">
+                      Message Sent!
+                    </h3>
                     <p className="text-xs sm:text-sm text-zinc-600 max-w-sm mx-auto">
-                      Thank you for reaching out, {formData.name}. We&apos;ve received your message
-                      and will respond within 24 hours.
+                      Thank you for reaching out, {formData.name}. We&apos;ve
+                      received your message and will respond within 24 hours.
                     </p>
                     <button
                       type="button"
                       onClick={() => {
                         setSubmitted(false);
                         setFormData({
-                          name: '',
-                          email: '',
-                          subject: 'General Question',
-                          message: '',
+                          name: "",
+                          email: "",
+                          subject: "General Question",
+                          message: "",
                         });
                       }}
                       className="mt-3 text-xs font-semibold text-blue-600 hover:text-blue-700 underline"
@@ -168,7 +204,7 @@ export default function ContactPage() {
                     </button>
                   </div>
                 ) : (
-                  <form onSubmit={handleSubmit} className="space-y-4">
+                  <form onSubmit={handleSubmit} ref={form}  className="space-y-4">
                     {errorMsg && (
                       <div className="p-3 bg-red-50 border border-red-200 rounded-xl text-xs text-red-700 flex items-center gap-2">
                         <AlertCircle className="w-4 h-4 shrink-0" />
@@ -184,9 +220,13 @@ export default function ContactPage() {
                         </label>
                         <input
                           type="text"
+                          id="name"
+                          name="name"
                           required
                           value={formData.name}
-                          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                          onChange={(e) =>
+                            setFormData({ ...formData, name: e.target.value })
+                          }
                           placeholder="e.g. Brian Mwangi"
                           className="w-full bg-zinc-50 border border-zinc-200 rounded-xl px-3.5 py-2.5 text-sm text-zinc-900 placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-colors"
                         />
@@ -199,9 +239,13 @@ export default function ContactPage() {
                         </label>
                         <input
                           type="email"
+                          id="email"
+                          name="email"
                           required
                           value={formData.email}
-                          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                          onChange={(e) =>
+                            setFormData({ ...formData, email: e.target.value })
+                          }
                           placeholder="you@domain.co.ke"
                           className="w-full bg-zinc-50 border border-zinc-200 rounded-xl px-3.5 py-2.5 text-sm text-zinc-900 placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-colors"
                         />
@@ -214,11 +258,17 @@ export default function ContactPage() {
                         Subject
                       </label>
                       <select
+                        id="subject"
+                        name="subject"
                         value={formData.subject}
-                        onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                        onChange={(e) =>
+                          setFormData({ ...formData, subject: e.target.value })
+                        }
                         className="w-full bg-zinc-50 border border-zinc-200 rounded-xl px-3.5 py-2.5 text-sm text-zinc-900 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-colors"
                       >
-                        <option value="General Question">General Question</option>
+                        <option value="General Question">
+                          General Question
+                        </option>
                         <option value="Bug Report">Bug Report</option>
                         <option value="Feature Request">Feature Request</option>
                         <option value="Billing">Billing</option>
@@ -235,9 +285,13 @@ export default function ContactPage() {
                         required
                         rows={5}
                         value={formData.message}
-                        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                        onChange={(e) =>
+                          setFormData({ ...formData, message: e.target.value })
+                        }
                         placeholder="Tell us what you're thinking, how you run your business, or how we can assist..."
                         className="w-full bg-zinc-50 border border-zinc-200 rounded-xl p-3.5 text-sm text-zinc-900 placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-colors"
+                        id="message"
+                        name="message"
                       />
                     </div>
 
@@ -262,7 +316,8 @@ export default function ContactPage() {
 
                 {/* Below form small note */}
                 <p className="mt-6 pt-4 border-t border-zinc-100 text-xs text-zinc-500 italic">
-                  We&apos;re a small team building something we care about. Every message gets read.
+                  We&apos;re a small team building something we care about.
+                  Every message gets read.
                 </p>
               </div>
             </div>
