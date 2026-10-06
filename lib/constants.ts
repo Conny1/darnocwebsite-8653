@@ -1,5 +1,5 @@
 export const DASHBOARD_URL = 'https://dashboard.modulor.co.ke/';
-export const LOGIN_URL = 'https://dashboard.modulor.co.ke/login';
+export const LOGIN_URL = 'https://dashboard.modulor.co.ke/auth?form=login';
 export const WHATSAPP_PHONE = '0114116265';
 export const WHATSAPP_URL = 'https://wa.me/254114116265';
 export const SUPPORT_EMAIL = 'joelconrad277@gmail.com';
