@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { Menu, X, ArrowUpRight } from 'lucide-react';
-import { DASHBOARD_URL, LOGIN_URL } from '@/lib/constants';
+import { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Menu, X, ArrowUpRight } from "lucide-react";
+import { DASHBOARD_URL, LOGIN_URL } from "@/lib/constants";
 
 interface NavItem {
   label: string;
@@ -12,13 +12,12 @@ interface NavItem {
 }
 
 const NAV_LINKS: NavItem[] = [
-    { label: 'Home', href: '/' },
-  { label: 'Features', href: '/features' },
-  { label: 'Apps', href: '/apps' },
-  { label: 'Pricing', href: '/pricing' },
-  { label: 'About', href: '/about' },
-    { label: 'Contact', href: '/contact' },
-
+  { label: "Home", href: "/" },
+  { label: "Features", href: "/features" },
+  { label: "Apps", href: "/apps" },
+  { label: "Pricing", href: "/pricing" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -36,7 +35,9 @@ export default function Navbar() {
           <div className="flex items-center justify-center w-8 h-8 text-base font-black text-white rounded-lg shadow-sm bg-zinc-900">
             M
           </div>
-          <span className="font-extrabold tracking-tight text-zinc-900">Modulor</span>
+          <span className="font-extrabold tracking-tight text-zinc-900">
+            Modulor
+          </span>
         </Link>
 
         {/* Zone 2: Navigation Links */}
@@ -49,8 +50,8 @@ export default function Navbar() {
                 href={item.href}
                 className={`transition-colors py-1 relative ${
                   isActive
-                    ? 'text-zinc-950 font-semibold'
-                    : 'text-zinc-600 hover:text-zinc-950'
+                    ? "text-zinc-950 font-semibold"
+                    : "text-zinc-600 hover:text-zinc-950"
                 }`}
               >
                 {item.label}
@@ -88,7 +89,11 @@ export default function Navbar() {
             aria-label="Toggle navigation menu"
             aria-expanded={mobileMenuOpen}
           >
-            {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            {mobileMenuOpen ? (
+              <X className="w-5 h-5" />
+            ) : (
+              <Menu className="w-5 h-5" />
+            )}
           </button>
         </div>
       </div>
@@ -106,8 +111,8 @@ export default function Navbar() {
                   onClick={() => setMobileMenuOpen(false)}
                   className={`px-3 py-2 text-base font-medium rounded-lg transition-colors ${
                     isActive
-                      ? 'bg-zinc-100 text-blue-600 font-semibold'
-                      : 'text-zinc-700 hover:bg-zinc-50 hover:text-zinc-950'
+                      ? "bg-zinc-100 text-blue-600 font-semibold"
+                      : "text-zinc-700 hover:bg-zinc-50 hover:text-zinc-950"
                   }`}
                 >
                   {item.label}
@@ -118,9 +123,9 @@ export default function Navbar() {
               href="/contact"
               onClick={() => setMobileMenuOpen(false)}
               className={`px-3 py-2 text-base font-medium rounded-lg transition-colors ${
-                pathname === '/contact'
-                  ? 'bg-zinc-100 text-blue-600 font-semibold'
-                  : 'text-zinc-700 hover:bg-zinc-50 hover:text-zinc-950'
+                pathname === "/contact"
+                  ? "bg-zinc-100 text-blue-600 font-semibold"
+                  : "text-zinc-700 hover:bg-zinc-50 hover:text-zinc-950"
               }`}
             >
               Contact
