@@ -38,8 +38,7 @@ export default function FeaturesPage() {
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-zinc-600 max-w-3xl mx-auto leading-relaxed text-balance">
               Modulor gives freelancers and solo businesses the same connected tools that
-              companies use — without the complexity and without paying for what you don&apos;t
-              need.
+              companies use — without the complexity and without the clutter of bloated software.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -52,10 +51,10 @@ export default function FeaturesPage() {
               </a>
 
               <Link
-                href="/pricing"
+                href="/apps"
                 className="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3.5 bg-white border border-zinc-300 hover:bg-zinc-50 active:bg-zinc-100 text-zinc-800 font-semibold text-base rounded-xl transition-colors"
               >
-                View Pricing
+                Explore Apps
               </Link>
             </div>
           </div>
@@ -76,7 +75,6 @@ export default function FeaturesPage() {
                     <span className="text-xs font-bold uppercase tracking-wider text-blue-600 block">
                       CRM
                     </span>
-                    <span className="text-xs text-zinc-500 font-medium">KES 300 / month</span>
                   </div>
                 </div>
 
@@ -134,27 +132,26 @@ export default function FeaturesPage() {
                     <span className="text-xs font-bold uppercase tracking-wider text-emerald-600 block">
                       Invoicing
                     </span>
-                    <span className="text-xs text-zinc-500 font-medium">KES 400 / month</span>
                   </div>
                 </div>
 
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-zinc-950 tracking-tight leading-tight text-balance">
-                  Send professional invoices and get paid faster.
+                  Send polished client work and keep every detail organised.
                 </h2>
 
                 <p className="text-base text-zinc-600 leading-relaxed">
-                  Generate branded PDF invoices in seconds. Support both local Kenyan payments via
-                  M-Pesa and international clients via card, with automatic payment tracking.
+                  Generate branded PDF invoices in seconds and keep your client workflow clear with
+                  simple, structured follow-up and delivery tracking.
                 </p>
 
                 <ul className="space-y-3 pt-2">
                   {[
                     'Create invoices and quotes in seconds',
                     'Branded PDF invoices with your logo',
-                    'M-Pesa and card payment support',
-                    'Track payment status — draft, sent, paid, overdue',
+                    'Flexible client workflow support',
+                    'Track delivery status — draft, sent, reviewed, complete',
                     'Connect invoices directly to CRM clients',
-                    'Multi-currency support — KES and USD',
+                    'Simple, organised follow-up workflows',
                   ].map((feat, idx) => (
                     <li key={idx} className="flex items-start gap-3 text-sm text-zinc-700">
                       <div className="w-5 h-5 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5">
@@ -185,7 +182,6 @@ export default function FeaturesPage() {
                     <span className="text-xs font-bold uppercase tracking-wider text-purple-600 block">
                       Projects & Tasks
                     </span>
-                    <span className="text-xs text-zinc-500 font-medium">KES 300 / month</span>
                   </div>
                 </div>
 
@@ -248,7 +244,6 @@ export default function FeaturesPage() {
                         Coming Soon
                       </span>
                     </div>
-                    <span className="text-xs text-zinc-500 font-medium">KES 300 / month</span>
                   </div>
                 </div>
 
@@ -303,7 +298,6 @@ export default function FeaturesPage() {
                         Coming Soon
                       </span>
                     </div>
-                    <span className="text-xs text-zinc-500 font-medium">KES 300 / month</span>
                   </div>
                 </div>
 
@@ -368,7 +362,8 @@ export default function FeaturesPage() {
               See it for yourself.
             </h2>
             <p className="text-lg text-zinc-400 max-w-2xl mx-auto text-balance">
-              Create your free base workspace today and test any app with a 30-day free trial.
+              Create your free base workspace today and start building the workflow that works for
+              you.
             </p>
             <div className="pt-2">
               <a

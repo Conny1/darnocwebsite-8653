@@ -253,7 +253,7 @@ export default function PricingCalculator({
       <div className="mt-8 max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
         <div className="flex items-center justify-center gap-2 text-sm text-zinc-600">
           <ShieldCheck className="w-4 h-4 text-blue-600 shrink-0" />
-          <span>30-day free trial per app</span>
+          <span>Simple setup</span>
         </div>
         <div className="flex items-center justify-center gap-2 text-sm text-zinc-600">
           <CreditCard className="w-4 h-4 text-blue-600 shrink-0" />
@@ -261,7 +261,7 @@ export default function PricingCalculator({
         </div>
         <div className="flex items-center justify-center gap-2 text-sm text-zinc-600">
           <RefreshCw className="w-4 h-4 text-blue-600 shrink-0" />
-          <span>Cancel or modify anytime</span>
+          <span>Flexible and easy to adjust</span>
         </div>
       </div>
     </div>

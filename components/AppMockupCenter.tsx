@@ -195,9 +195,6 @@ export default function AppMockupCenter() {
                       <Icon className="w-5 h-5 text-blue-600" />
                     </div>
                     <div className="text-right">
-                      <span className="text-xs font-bold text-zinc-900 block tabular-nums">
-                        KES {app.priceKes}/mo
-                      </span>
                       {app.status === 'coming_soon' && (
                         <span className="text-[10px] font-medium text-amber-700 bg-amber-50 px-1.5 py-0.5 rounded">
                           Coming Soon

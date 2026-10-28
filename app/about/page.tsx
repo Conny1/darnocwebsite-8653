@@ -50,17 +50,17 @@ export default function AboutPage() {
               </h2>
               <div className="text-base sm:text-lg text-zinc-700 leading-relaxed space-y-5">
                 <p>
-                  Most business software is built for companies — teams, departments, IT budgets.
+                  Most business software is built for companies — large teams, layered approvals, and unnecessary complexity.
                   When you&apos;re running a business alone, those tools feel like they were designed
                   for someone else entirely.
                 </p>
                 <p>
-                  You either pay for a bloated suite you&apos;ll never fully use, or you stitch together
+                  You either get stuck with a bloated suite you&apos;ll never fully use, or you stitch together
                   five different apps that don&apos;t talk to each other. Neither works.
                 </p>
                 <p>
                   Modulor was built to fill that gap — a Business OS designed from the ground up for
-                  the one-person business. Install what you need. Pay for that. Nothing else.
+                  the one-person business. Install what you need. Keep your workflow lean and focused.
                 </p>
               </div>
             </div>
@@ -86,11 +86,11 @@ export default function AboutPage() {
                   01
                 </div>
                 <h3 className="text-lg font-bold text-zinc-900">
-                  You shouldn&apos;t pay for what you don&apos;t use
+                  You should only install what you actually need
                 </h3>
                 <p className="text-sm text-zinc-600 leading-relaxed">
-                  Every app is priced and installed separately. No forced packages. No subsidizing
-                  enterprise features you will never open.
+                  Each app is added independently. No forced packages. No subsidizing enterprise
+                  features you will never open.
                 </p>
               </div>
 
@@ -145,9 +145,6 @@ export default function AboutPage() {
                     <p className="text-xs sm:text-sm text-zinc-500">{app.shortDescription}</p>
                   </div>
                   <div className="flex items-center gap-3 shrink-0">
-                    <span className="text-xs font-bold text-zinc-800">
-                      KES {app.priceKes}/mo
-                    </span>
                     <span
                       className={`text-xs font-semibold px-2.5 py-1 rounded-md ${
                         app.status === 'available'

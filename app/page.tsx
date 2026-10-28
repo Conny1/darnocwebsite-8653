@@ -17,7 +17,6 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AppMockupCenter from '@/components/AppMockupCenter';
 import EnterpriseVsModulorComparison from '@/components/EnterpriseVsModulorComparison';
-import PricingCalculator from '@/components/PricingCalculator';
 import { DASHBOARD_URL, MODULOR_APPS } from '@/lib/constants';
 
 export default function HomePage() {
@@ -55,8 +54,8 @@ export default function HomePage() {
 
             <p className="mt-6 text-lg sm:text-xl text-zinc-600 max-w-3xl mx-auto leading-relaxed text-balance">
               Stop juggling disconnected apps. Modulor brings your CRM, Invoicing, Projects,
-              Calendar, and more into one connected workspace — install only what you need, pay
-              for what you use.
+              Calendar, and more into one connected workspace — install only what you need and
+              keep your workflow simple.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -94,8 +93,8 @@ export default function HomePage() {
                 Business Software Wasn&apos;t Built for You.
               </h2>
               <p className="mt-4 text-lg text-zinc-300 leading-relaxed text-balance">
-                Every tool out there was built for companies with teams and budgets. Modulor is
-                built for the one-person business.
+                Every tool out there was built for companies with large teams and layered systems.
+                Modulor is built for the one-person business.
               </p>
             </div>
 
@@ -118,11 +117,11 @@ export default function HomePage() {
                 <div className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 space-y-3">
                   <div className="flex items-center gap-2.5">
                     <span className="w-2.5 h-2.5 rounded-full bg-blue-500 shrink-0" />
-                    <h3 className="font-bold text-white text-base">Pay for What You Don&apos;t Use</h3>
+                    <h3 className="font-bold text-white text-base">Only Install What You Need</h3>
                   </div>
                   <p className="text-sm text-zinc-400 leading-relaxed">
-                    Bundled plans force you to pay for dozens of features you&apos;ll never touch. You
-                    should only pay for what you actually use.
+                    Bundled software is bloated. You should only add the tools that fit your actual
+                    workflow and business needs.
                   </p>
                 </div>
 
@@ -170,7 +169,7 @@ export default function HomePage() {
                 A Modular Approach to Business Tools.
               </h2>
               <p className="mt-4 text-lg text-zinc-600 text-balance">
-                Start simple. Add tools as you grow. Never pay for what you don&apos;t use.
+                Start simple. Add tools as you grow. Keep your workflow focused and uncluttered.
               </p>
             </div>
 
@@ -183,7 +182,7 @@ export default function HomePage() {
                 <h3 className="text-xl font-bold text-zinc-900 mb-2">One Account</h3>
                 <p className="text-zinc-600 leading-relaxed text-sm">
                   One login for your entire business. No password managers full of different SaaS
-                  credentials, different billing dates, or disconnected dashboards.
+                  credentials, mismatched workflows, or disconnected dashboards.
                 </p>
               </div>
 
@@ -216,10 +215,10 @@ export default function HomePage() {
                 <div className="w-12 h-12 rounded-xl bg-zinc-100 text-zinc-900 flex items-center justify-center font-bold mb-5">
                   <CreditCard className="w-6 h-6 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold text-zinc-900 mb-2">Unified Billing</h3>
+                <h3 className="text-xl font-bold text-zinc-900 mb-2">Unified Workspace</h3>
                 <p className="text-zinc-600 leading-relaxed text-sm">
-                  One monthly total in Kenyan Shillings for all your apps. Add or remove apps anytime
-                  and your billing adjusts automatically.
+                  Your tools stay aligned in one place. Add or remove apps anytime without creating a
+                  fractured business setup.
                 </p>
               </div>
             </div>
@@ -271,14 +270,7 @@ export default function HomePage() {
                       </p>
                     </div>
 
-                    <div className="pt-4 border-t border-zinc-100 flex items-center justify-between">
-                      <div>
-                        <span className="text-sm font-extrabold text-zinc-900 tabular-nums">
-                          KES {app.priceKes}
-                        </span>
-                        <span className="text-xs text-zinc-500"> / mo</span>
-                      </div>
-
+                    <div className="pt-4 border-t border-zinc-100 flex items-center justify-end">
                       <Link
                         href={`/features#${app.id}`}
                         className="text-xs font-semibold text-blue-600 hover:text-blue-700 inline-flex items-center gap-1"
@@ -304,14 +296,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 5. PRICING SECTION */}
-        <section className="py-20 lg:py-28 bg-zinc-50 border-y border-zinc-200/80">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <PricingCalculator />
-          </div>
-        </section>
-
-        {/* 6. CTA BANNER */}
+        {/* 5. CTA BANNER */}
         <section className="py-20 lg:py-24 bg-zinc-900 text-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight text-balance">

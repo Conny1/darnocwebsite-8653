@@ -15,9 +15,7 @@ export default function EnterpriseVsModulorComparison() {
               Legacy Enterprise Suite
             </span>
           </div>
-          <span className="text-xs font-semibold text-zinc-400">
-            $189/mo <span className="text-zinc-600 line-through">(KES 24,500)</span>
-          </span>
+          <span className="text-xs font-semibold text-zinc-400">Locked into a bloated plan</span>
         </div>
 
         {/* Warning banner */}
@@ -34,7 +32,7 @@ export default function EnterpriseVsModulorComparison() {
               Simple PDF Invoicing
             </span>
             <span className="text-[10px] text-amber-400 bg-amber-950/40 border border-amber-800/40 px-2 py-0.5 rounded">
-              Requires Enterprise Tier ($299)
+              Requires extra tier
             </span>
           </div>
 
@@ -71,9 +69,7 @@ export default function EnterpriseVsModulorComparison() {
               Modulor Workspace
             </span>
           </div>
-          <span className="text-xs font-bold text-blue-400 tabular-nums">
-            From KES 300/mo · Free Base
-          </span>
+          <span className="text-xs font-bold text-blue-400">Simple and modular</span>
         </div>
 
         <div className="space-y-2.5 text-xs">
@@ -90,9 +86,9 @@ export default function EnterpriseVsModulorComparison() {
           <div className="p-2.5 bg-zinc-800/50 rounded-xl border border-zinc-700/60 flex items-center justify-between">
             <span className="text-zinc-200 flex items-center gap-2 font-medium">
               <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-              M-Pesa & Card Payments Included
+              Flexible payment workflows
             </span>
-            <span className="text-[10px] text-zinc-300">Instant KES receipts</span>
+            <span className="text-[10px] text-zinc-300">Built for seamless workflows</span>
           </div>
 
           <div className="p-2.5 bg-zinc-800/50 rounded-xl border border-zinc-700/60 flex items-center justify-between">

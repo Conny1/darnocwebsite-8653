@@ -30,9 +30,6 @@ export default function Footer() {
             <Link href="/apps" className="hover:text-white transition-colors">
               Apps
             </Link>
-            <Link href="/pricing" className="hover:text-white transition-colors">
-              Pricing
-            </Link>
             <Link href="/about" className="hover:text-white transition-colors">
               About
             </Link>
@@ -52,9 +49,7 @@ export default function Footer() {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
           <p>© 2026 Modulor. All rights reserved.</p>
           <div className="flex items-center gap-4">
-            <span>KES Billing</span>
-            <span>·</span>
-            <span>M-Pesa Supported</span>
+            <span>Built for freelancers</span>
             <span>·</span>
             <span>Nairobi, Kenya</span>
           </div>

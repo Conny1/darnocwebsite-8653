@@ -66,10 +66,7 @@ export default function AppsPage() {
               App Marketplace
             </span>
             <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold text-zinc-950 tracking-tight leading-[1.1] text-balance">
-              Install What You Need.{' '}
-              <span className="block font-serif italic font-normal text-zinc-700 sm:inline">
-                Pay for What You Use.
-              </span>
+              Install What You Need.
             </h1>
             <p className="max-w-3xl mx-auto mt-6 text-lg leading-relaxed sm:text-xl text-zinc-600 text-balance">
               Every app works independently or connects with your other installed apps. Start with
@@ -112,8 +109,8 @@ export default function AppsPage() {
                 </div>
                 <h3 className="mb-2 text-base font-bold text-zinc-900">Browse and install apps</h3>
                 <p className="text-sm leading-relaxed text-zinc-600">
-                  Pick only the tools your business needs right now. Test any tool with an automatic
-                  30-day free trial.
+                  Pick only the tools your business needs right now and build the workflow that fits
+                  your business.
                 </p>
               </div>
 
@@ -124,8 +121,8 @@ export default function AppsPage() {
                 </div>
                 <h3 className="mb-2 text-base font-bold text-zinc-900">Run your business</h3>
                 <p className="text-sm leading-relaxed text-zinc-600">
-                  Everything works together from one place. Seamless Kenyan M-Pesa billing, client
-                  tracking, and task management.
+                  Everything works together from one place. Seamless client tracking, task
+                  management, and business workflows.
                 </p>
               </div>
             </div>
@@ -170,9 +167,6 @@ export default function AppsPage() {
                           >
                             {app.badge}
                           </span>
-                          <span className="text-[11px] font-medium text-blue-600 flex items-center gap-1">
-                            <ShieldCheck className="w-3 h-3" /> 30-day free trial
-                          </span>
                         </div>
                       </div>
 
@@ -181,12 +175,6 @@ export default function AppsPage() {
                         {app.shortDescription}
                       </p>
 
-                      <div className="mb-6">
-                        <span className="text-2xl font-black text-zinc-900 tabular-nums">
-                          KES {app.priceKes}
-                        </span>
-                        <span className="text-xs text-zinc-500"> / month</span>
-                      </div>
                     </div>
 
                     <div className="pt-4 border-t border-zinc-100">

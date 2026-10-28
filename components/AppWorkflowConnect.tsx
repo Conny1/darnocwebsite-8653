@@ -29,9 +29,9 @@ const FLOWS: ConnectionFlow[] = [
     targetIcon: Receipt,
     description: 'When you close a deal in your sales pipeline, click "Generate Invoice". All client details, negotiated rates, and terms carry over instantly.',
     exampleData: {
-      from: 'Acme Digital (Lead: KES 85,000)',
+      from: 'Acme Digital (Lead record active)',
       actionDetail: 'Pipeline Stage: Won → Generate Invoice',
-      result: 'Invoice #INV-2026-041 created with M-Pesa payment prompt',
+      result: 'Invoice #INV-2026-041 created with client-ready details',
     },
   },
   {
@@ -45,7 +45,7 @@ const FLOWS: ConnectionFlow[] = [
     exampleData: {
       from: 'Brand Identity & Web Refresh (100% Tasks Done)',
       actionDetail: 'Milestone "Final Delivery" marked Complete',
-      result: 'Final balance invoice of KES 45,000 emailed to client',
+      result: 'Final client invoice drafted and shared automatically',
     },
   },
   {

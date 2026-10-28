@@ -28,7 +28,7 @@ export function CrmMockup() {
           <h4 className="text-sm font-extrabold text-zinc-900">Active Deals & Leads</h4>
         </div>
         <span className="text-xs font-semibold bg-emerald-50 text-emerald-700 px-2.5 py-1 rounded-md">
-          KES 240,000 Pipeline
+          Active pipeline
         </span>
       </div>
 
@@ -43,7 +43,7 @@ export function CrmMockup() {
             <p className="font-semibold text-zinc-900">Zawadi Tech</p>
             <p className="text-zinc-500 text-[11px]">Brand & UI Design</p>
             <div className="flex items-center justify-between pt-1 text-[11px] text-zinc-700 font-medium">
-              <span>KES 60,000</span>
+              <span>Follow up</span>
               <span className="text-[10px] text-amber-600 bg-amber-50 px-1 rounded">Call today</span>
             </div>
           </div>
@@ -59,7 +59,7 @@ export function CrmMockup() {
             <p className="font-semibold text-zinc-900">Safari Creative</p>
             <p className="text-zinc-500 text-[11px]">Mobile App MVP</p>
             <div className="flex items-center justify-between pt-1 text-[11px] text-zinc-700 font-medium">
-              <span>KES 95,000</span>
+              <span>Proposal sent</span>
               <span className="text-[10px] text-blue-600 bg-blue-50 px-1 rounded">Sent</span>
             </div>
           </div>
@@ -75,7 +75,7 @@ export function CrmMockup() {
             <p className="font-semibold text-zinc-900">Nairobi Logistics</p>
             <p className="text-zinc-500 text-[11px]">Website Redesign</p>
             <div className="flex items-center justify-between pt-1 text-[11px] text-emerald-700 font-bold">
-              <span>KES 85,000</span>
+              <span>Closed</span>
               <span className="text-[10px] text-emerald-600 bg-emerald-50 px-1 rounded">Invoiced</span>
             </div>
           </div>
@@ -108,7 +108,7 @@ export function InvoicingMockup() {
           <p className="text-xs text-zinc-500 mt-0.5">Billed to: Kibo Media Kenya</p>
         </div>
         <div className="text-right">
-          <span className="text-lg font-black text-zinc-900 tabular-nums">KES 65,000</span>
+          <span className="text-lg font-black text-zinc-900 tabular-nums">Paid</span>
           <span className="text-[10px] text-zinc-400 block">Due date: 24 Oct 2026</span>
         </div>
       </div>
@@ -120,7 +120,7 @@ export function InvoicingMockup() {
             <p className="font-semibold text-zinc-900">Brand Identity System</p>
             <p className="text-[11px] text-zinc-500">Logo, brand guidelines, typography</p>
           </div>
-          <span className="font-bold text-zinc-800 tabular-nums">KES 35,000</span>
+          <span className="font-bold text-zinc-800 tabular-nums">Project total</span>
         </div>
 
         <div className="p-2.5 bg-zinc-50 rounded-lg flex items-center justify-between">
@@ -128,7 +128,7 @@ export function InvoicingMockup() {
             <p className="font-semibold text-zinc-900">Landing Page Development</p>
             <p className="text-[11px] text-zinc-500">Responsive Next.js + Tailwind site</p>
           </div>
-          <span className="font-bold text-zinc-800 tabular-nums">KES 30,000</span>
+          <span className="font-bold text-zinc-800 tabular-nums">Service total</span>
         </div>
       </div>
 
