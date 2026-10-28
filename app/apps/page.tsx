@@ -63,14 +63,15 @@ export default function AppsPage() {
         <section className="px-4 pt-16 pb-16 mx-auto text-center sm:pt-20 sm:pb-20 lg:pt-24 lg:pb-24 sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-4xl mx-auto">
             <span className="px-3 py-1 text-xs font-bold tracking-wider text-blue-600 uppercase rounded-md bg-blue-50">
-              App Marketplace
+              Business tools
             </span>
             <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold text-zinc-950 tracking-tight leading-[1.1] text-balance">
-              Install What You Need.
+              Business tools for every part of your operation.
             </h1>
             <p className="max-w-3xl mx-auto mt-6 text-lg leading-relaxed sm:text-xl text-zinc-600 text-balance">
-              Every app works independently or connects with your other installed apps. Start with
-              one, add more as your business grows.
+              Modulor gives businesses a connected set of tools for customers, finance, projects,
+              scheduling, and day-to-day operations. Start with the tools you need today and add more
+              as your business grows.
             </p>
           </div>
         </section>

@@ -140,9 +140,9 @@ export default function AppMockupCenter() {
         {/* Subheader / Filter Tabs */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
           <div>
-            <h3 className="text-base font-bold text-zinc-900">Installed & Available Apps</h3>
+            <h3 className="text-base font-bold text-zinc-900">Installed & Available Tools</h3>
             <p className="text-xs text-zinc-500">
-              Install modular business tools to your solo workspace with one click.
+              Build a connected business workspace with the tools your operation needs most.
             </p>
           </div>
 
@@ -255,7 +255,7 @@ export default function AppMockupCenter() {
         <div className="mt-6 pt-4 border-t border-zinc-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-zinc-500">
           <div className="flex items-center gap-2">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-500" />
-            <span>Zero lock-in. Add or remove any app with instant monthly billing prorating.</span>
+            <span>Choose the tools that fit your business today and add more as you grow.</span>
           </div>
           <a
             href={DASHBOARD_URL}

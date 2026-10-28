@@ -18,7 +18,7 @@ export default function Footer() {
               <span className="text-white font-extrabold tracking-tight">Modulor</span>
             </Link>
             <p className="text-sm text-zinc-400 leading-relaxed">
-              The Business OS for freelancers and solo businesses. Built for Kenya.
+              Business software and tools for running your operations in one connected platform.
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export default function Footer() {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
           <p>© 2026 Modulor. All rights reserved.</p>
           <div className="flex items-center gap-4">
-            <span>Built for freelancers</span>
+            <span>Built for growing businesses</span>
             <span>·</span>
             <span>Nairobi, Kenya</span>
           </div>

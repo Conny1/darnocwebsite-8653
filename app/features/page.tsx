@@ -37,8 +37,8 @@ export default function FeaturesPage() {
               Everything You Need to Run Your Business.
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-zinc-600 max-w-3xl mx-auto leading-relaxed text-balance">
-              Modulor gives freelancers and solo businesses the same connected tools that
-              companies use — without the complexity and without the clutter of bloated software.
+              Modulor gives businesses the connected tools they need to manage customers, finance,
+              projects, and everyday operations — without the complexity and clutter of disconnected software.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">

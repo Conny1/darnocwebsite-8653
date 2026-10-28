@@ -27,13 +27,13 @@ export default function AboutPage() {
               About Modulor
             </span>
             <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold text-zinc-950 tracking-tight leading-[1.1] text-balance">
-              Built by a Freelancer,{' '}
+              Built for businesses that need{' '}
               <span className="font-serif italic font-normal text-zinc-700 block sm:inline">
-                for Freelancers.
+                a better way to operate.
               </span>
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-zinc-600 max-w-3xl mx-auto leading-relaxed text-balance">
-              Modulor exists because the tools freelancers needed didn&apos;t.
+              Modulor exists to bring the tools businesses need into one connected platform.
             </p>
           </div>
         </section>
@@ -50,17 +50,19 @@ export default function AboutPage() {
               </h2>
               <div className="text-base sm:text-lg text-zinc-700 leading-relaxed space-y-5">
                 <p>
-                  Most business software is built for companies — large teams, layered approvals, and unnecessary complexity.
-                  When you&apos;re running a business alone, those tools feel like they were designed
-                  for someone else entirely.
+                  Most business software is built for large organizations with layers of approvals,
+                  complex setup, and rigid processes. That makes it harder for growing businesses to
+                  stay agile and move quickly.
                 </p>
                 <p>
-                  You either get stuck with a bloated suite you&apos;ll never fully use, or you stitch together
-                  five different apps that don&apos;t talk to each other. Neither works.
+                  Many small businesses end up stitching together several disconnected tools for
+                  customer records, invoicing, projects, scheduling, and operations. It works in
+                  fragments, but not as a single system.
                 </p>
                 <p>
-                  Modulor was built to fill that gap — a Business OS designed from the ground up for
-                  the one-person business. Install what you need. Keep your workflow lean and focused.
+                  Modulor was built to close that gap — a connected business platform that gives
+                  growing teams the tools they need to manage operations without the clutter or the
+                  chaos of disconnected software.
                 </p>
               </div>
             </div>
